@@ -1,0 +1,22 @@
+[
+  {
+    "id": 100,
+    "name": "Batman",
+    "age": 64
+  },
+  {
+    "id": 200,
+    "name": "Superman",
+    "age": 31
+  },
+  {
+    "id": 300,
+    "name": "Spider-Man",
+    "age": 25
+  },
+  {
+    "id": 400,
+    "name": "Wolverine",
+    "age": 43
+  }
+]

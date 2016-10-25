@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8"/>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/styles.css"/>
+  <!-- Polyfill(s) for older browsers -->
+  <script src="node_modules/core-js/client/shim.min.js"></script>
+  <script src="node_modules/systemjs/dist/system.src.js"></script>
+  <!-- app -->
+  <script src="systemjs.config.js"></script>
+  <script src="systemjs-import-sources.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">jQ Tasks</a>
+  </div>
+</nav>
+<div class="container">
+  <h1 class="js-title">jQ Tasks</h1>
+
+  <div class="js-task-1 panel panel-default">
+    <div class="js-content panel-body">
+      Lorem ipsum
+    </div>
+  </div>
+
+  <div class="js-task-2 panel panel-default">
+    <div class="panel-body">
+      <button class="btn">Toggle</button>
+    </div>
+  </div>
+
+  <div class="js-task-3 panel panel-default">
+    <div class="panel-body">
+      <ul class="list-group">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Morbi leo risus</li>
+        <li class="list-group-item">Porta ac consectetur ac</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+      </ul>
+      <div>
+        <button class="btn btn-success">Add</button>
+        <button class="btn btn-danger">Remove First</button>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="js-task-4 js-cont"></div>
+</div>
+</body>
+</html>

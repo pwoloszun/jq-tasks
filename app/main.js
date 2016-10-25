@@ -1,21 +1,11 @@
 import $ from "jquery";
-import _ from "underscore";
 
-const task1 = function () {
-  console.log("qq");
-};
+//TODO: imports
 
-const task2 = function () {
-};
-
-const task3 = function () {
-};
-
-const onHeroesDataLoad = function (heroes) {
-};
-
-const onHeroesPageLoad = function () {
-};
-
-const task4 = function () {
-};
+$(function () {
+  // TODO
+  // task1();
+  // task2();
+  // task3();
+  // task4();
+});
